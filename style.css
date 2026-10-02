@@ -14,18 +14,33 @@ h2 {
     margin-top: 50px;
 }
 
-nav {
+.topbar {
     display: flex;
-    gap: 25px;
-    margin-bottom: 50px;
+    justify-content: space-between;
+    align-items: center;
+
+    max-width: 900px;
+    margin: 30px auto;
+    padding: 0 24px;
 }
 
-nav a {
+.name {
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+.topbar a {
     text-decoration: none;
-    color: #555;
-    font-size: 16px;
+    color: black;
+    font-size: 14px;
+    letter-spacing: 1px;
 }
 
-nav a:hover {
+.topbar a:hover {
+    opacity: 0.6;
+}
+
+.name a {
+    text-decoration: none;
     color: black;
 }
